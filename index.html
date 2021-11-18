@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main">
+
+       <div class="top">
+        <h1>Instruction Cycle </h1>
+           
+        <div id="question">
+            <input type="text" id="memoryDataOne" autocomplete="off" >
+            <br>
+            <input type="text" id="memoryDataTwo" autocomplete="off">
+            <br>
+            <button onclick="enterData()" id="enterData">Enter Data</button>
+        </div>
+        <div id="loading-container">
+           
+        </div>   
+       </div>
+        <hr>
+        <div class="comp-store">
+
+        <div class="memory-container">
+            <h1>Memory</h1>
+
+            <div id="memory-data"></div>
+            <br>
+            <hr>
+        </div>
+
+        <div class="cpu-register">
+        <h1>Cpu Register</h1>
+
+            <div id="cpu-data"></div>
+        </div>
+        <div id="events"></div>
+    </div>
+
+        </div>
+    <div id="reloadui"></div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
